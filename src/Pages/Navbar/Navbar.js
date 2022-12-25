@@ -18,6 +18,7 @@ const Navbar = () => {
         <li><Link to='/portfolio'>My Portfolio</Link></li>
         <li><Link to='/blogs'>Blogs</Link></li>
         <li><Link to='/about'>About</Link></li>
+        <li><Link to='/signup'>Signup</Link></li>
         {/* {
             user && <li><Link to='/dashboard'>Dashboard</Link></li>
         }
@@ -26,7 +27,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-white text-black lg:px-12">
+        <div className="navbar bg-white text-black lg:px-12 fixed">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
